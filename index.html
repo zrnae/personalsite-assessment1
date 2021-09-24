@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>zrnae — welcome</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+        background-color: #f5fbef;
+        font-family: 'Poppins', sans-serif;
+        font-color: #0C120C;
+      }
+
+      h1 {
+        font-size: 45px;
+        margin: 5px 15px 5px 35px;
+      }
+
+      a:link{
+        color: #0C120C;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      a.logo:visited {
+        color: #0C120C;
+      }
+
+      .navbar {
+        position: sticky;
+        top: 0px;
+        overflow: hidden;
+        padding: 10px;
+        text-decoration: none;
+        background: #f5fbef;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+      }
+
+      .nav {
+        list-style-type: none;
+        font-weight: 600;
+      }
+
+      .nav li {
+        float: left;
+        font-size: 20px;
+        margin: 0px 10px;
+      }
+
+      /*home button*/
+      a.zero:link {color: #0C120C;}
+      a.zero:visited {color: #0C120C;}
+      a.zero:hover {
+        color: #EA8C55;
+        font-style: italic;
+      }
+
+      /*achievements*/
+      a.one:link {color: #0C120C;}
+      a.one:visited {color: #0C120C;}
+      a.one:hover {
+        color: #EA8C55;
+        font-style: italic;
+      }
+
+      /*experiences*/
+      a.two:link {color: #0C120C;}
+      a.two:visited {color: #0C120C;}
+      a.two:hover {
+        color: #EA8C55;
+        font-style: italic;
+      }
+
+      .main {
+        position: absolute;
+        width: 1000px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+      }
+
+      .main .picture {
+        width: 90%;
+        height: auto;
+        flex: 0 0 10px;
+        border-radius: 5%;
+
+        -moz-box-shadow: 5px 5px 5px #f7ede2;
+        -webkit-box-shadow: 5px 5px 5px #f7ede2;
+        box-shadow: 5px 5px 5px #f7ede2;
+      }
+
+      .main .intro-name h2 {
+        padding-top: 1.85em;
+        font-size: 85px;
+        line-height: 0.85em;
+        margin: 0;
+      }
+
+      .main .intro-name p {
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      .about-me {
+        margin-bottom: 0px;
+      }
+
+      .about {
+        margin-top: 0px;
+        font-size: 14px;
+        list-style-type: "✧  ";
+        padding-left: 15px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!--navbar-->
+    <div class="navbar">
+      <div class="container">
+        <h1><a href="index.html" class="logo">z<span style = "color: #ff758f">rn</span>ae.</h1>
+        <nav>
+          <ul class="nav">
+            <li><a class="zero" href="index.html">home</a></li>
+            <li><a class="one" href="achievements.html">achievements</a></li>
+            <li><a class="two" href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!--main section-->
+    <div class="main">
+      <div class="image">
+        <img class="picture" src="images/kizzel.png" alt="zrnae">
+        </div>
+        <div class="intro-name">
+          <h2>Kizzel Mae ♡</h2>
+          <p>Future Graphic Designer <br>& UI/UX Designer</p>
+          <p class="about-me" style="font-weight: 600; color: #ea8c55;">ABOUT ME </p>
+          <ul class="about">
+            <li>co-founder of Coffee Studios</li>
+            <li>professional bomb thrower — klee main</li>
+            <li>loli squad owner (klee, qiqi, diona, sayu)</li>
+          </ul>
+        </div>
+      </div>
+  </body>
+</html>
